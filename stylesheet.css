@@ -1,16 +1,16 @@
 .span3{
 	background-color: #E3F5D5;
-	border: 1px solid black;
+	border: 3px solid black;
 	opacity: .50;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
     -khtml-opacity: .50;
     -moz-opacity: .50;
 }
-.span12{
-	display: inline-block;
+.nav{
+	text-align: justify;
 	background-color: #E3F5D5;
-	border: 1px solid black;
+	border: 3px solid black;
 	opacity: .50;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
