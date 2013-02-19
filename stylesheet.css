@@ -21,3 +21,67 @@ body{
 	background-image: url(http://media.tumblr.com/tumblr_lsb01xU8Pw1qad55j.png); 
 	background-repeat: repeat;
 }
+.social-container{
+	float: right;
+	vertical-align: middle;
+}
+.facebook{
+	height: 50px;
+	width: 50px;
+	background: url(img/fblogo.png);
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+.twitter{
+	height: 50px;
+	width: 50px;
+	background: url(img/twitter.png);
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+.git{
+	height: 50px;
+	width: 50px;
+	background: url(img/git.png);
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+.tumblr{
+	height: 50px;
+	width: 50px;
+	background: url(img/tumblr.png);
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
+.linkedin{
+	height: 50px;
+	width: 50px;
+	background: url(img/linkedin.png);
+	background-color: #E3F5D5;
+	border: 1px solid black;
+	opacity: .50;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50;
+}
