@@ -12,12 +12,12 @@
 	<div class = "container-fluid">
 		<div class = "row">
 		<div class = "span12">
-		<div class = "span7"class ="btn-toolbar">
+		<div class = "span7"class ="tabbable">
 			<ul class = "nav nav-tab">
 				<h4>
 					<center>
-				<button class ="btn">The Place Where It Begins</button>
-				<button class = "btn">Maker of Things</button>
+				<button class ="active" class="btn"><a href="#homeTab" data-toggle="tab">Go Home, You're Drunk</a></button>
+				<button class = "btn"><a href="#makeTab" data-toggle="tab">Maker of Things</a></button>
 				<button class="btn">Wearer of Costumes</button>
 				<button class="btn">Helper of People</button>
 					</center>
@@ -35,7 +35,8 @@
 </div>
 
 <div class = "row-fluid">
-<div class = "span3">
+<div class = "span3" class = "tab-content">
+	<div class = "tab-pane active" id="homeTab">
 <center>
 	<h2>Hello there!<br/>
 		Name's Alisa.</h2>
@@ -49,12 +50,35 @@
 		<li>I am...an adorable ball of insanity bundled up with intensity, spontaneity, and vulgarity.</li></h5>
 	</ul>
 </div>
+</div>
 <div class = "span9">
 	<img src="img/mainImage.jpg">
 </div>
 </div>
-</div>
 </body>
 <footer>
+	<div class = "row-fluid tab-content">
+	<div class="span12">
+<div class = "tab-pane" id="makeTab">
+	<center>
+		<h2>
+			Alisa Makes.
+		</h2>
+		I love creating programs, games, websites, and virtual things.
+		I also love creating tables, costumes, make-up, and physical things.
+		<h2>THESE ARE THINGS I'VE MADE!</h2>
+		<img src="img/cube.png">
+		<img src="img/meatwad.png">
+		<img src="img/table.png">
+		<img src="img/vault.png">
+		<img src="img/octopus.png">
+		<img src="img/minecraftbow.png">
+		<img src="img/goghbox.png">
+		<img src="img/minecraftbag.png">
+	</div>
+<div class = "tab-pane" id="volunteerTab">
+</div>
+	</div>
+</div>
 </footer>
 </html>
