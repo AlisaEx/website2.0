@@ -2,11 +2,11 @@
 .span3{
 	background-color: #E3F5D5;
 	border: 3px solid black;
-	opacity: .75;
+	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .85;
+    -moz-opacity: .85;
 }
 .span7{
 	float: left;
@@ -14,20 +14,20 @@
 #makeTab{
 	background-color: #E3F5D5;
 	border: 3px solid black;
-	opacity: .75;
+	opacity: .90;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .90;
+    -moz-opacity: .90;
 }
 .nav{
 	background-color: #E3F5D5;
 	border: 3px solid black;
-	opacity: .75;
+	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .85;
+    -moz-opacity: .85;
 }
 body{
 	background-image: url(img/space.jpg); 
@@ -45,11 +45,11 @@ body{
 	background: url(img/fblogo.png);
 	background-color: #E3F5D5;
 	border: 1px solid black;
-	opacity: .75;
+	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .85;
+    -moz-opacity: .85;
 }
 .twitter{
 	height: 50px;
@@ -57,11 +57,11 @@ body{
 	background: url(img/twitter.png);
 	background-color: #E3F5D5;
 	border: 1px solid black;
-	opacity: .75;
+	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .85;
+    -moz-opacity: .85;
 }
 .git{
 	height: 50px;
@@ -69,11 +69,11 @@ body{
 	background: url(img/git.png);
 	background-color: #E3F5D5;
 	border: 1px solid black;
-	opacity: .75;
+	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .85;
+    -moz-opacity: .85;
 }
 .tumblr{
 	height: 50px;
@@ -81,11 +81,11 @@ body{
 	background: url(img/tumblr.png);
 	background-color: #E3F5D5;
 	border: 1px solid black;
-	opacity: .75;
+	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .85;
+    -moz-opacity: .85;
 }
 .linkedin{
 	height: 50px;
@@ -93,11 +93,11 @@ body{
 	background: url(img/linkedin.png);
 	background-color: #E3F5D5;
 	border: 1px solid black;
-	opacity: .75;
+	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .75;
-    -moz-opacity: .75;
+    -khtml-opacity: .85;
+    -moz-opacity: .85;
 }
 li{
 	line-height: 25px;
