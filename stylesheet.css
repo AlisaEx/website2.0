@@ -20,6 +20,24 @@
     -khtml-opacity: .90;
     -moz-opacity: .90;
 }
+#cosplayTab{
+	background-color: #E3F5D5;
+	border: 3px solid black;
+	opacity: .90;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .90;
+    -moz-opacity: .90;
+}
+#volunteerTab{
+	background-color: #E3F5D5;
+	border: 3px solid black;
+	opacity: .90;
+    filter: alpha(opacity=50); 
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .90;
+    -moz-opacity: .90;
+}
 .nav{
 	background-color: #E3F5D5;
 	border: 3px solid black;
