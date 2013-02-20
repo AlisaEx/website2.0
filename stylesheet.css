@@ -90,3 +90,6 @@ body{
     -khtml-opacity: .75;
     -moz-opacity: .75;
 }
+li{
+	line-height: 25px;
+}
