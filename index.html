@@ -6,17 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 <link type = "text/css" rel="stylesheet" href="stylesheet.css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="hovereffects.js"></script>
 <title>An Adorable Atrocity</title>
 </head>
 <body>
 	<div class = "container-fluid">
 		<div class = "row">
-		<div class = "span12">
-		<div class = "span7"class ="tabbable">
+		<div class = "span12 menu">
+		<div class = "span7" class ="tabbable">
 			<ul class = "nav nav-tab">
 				<h4>
 					<center>
-				<button class ="active" class="btn"><a href="#homeTab" data-toggle="tab">Go Home, You're Drunk</a></button>
+				<button class ="active" class="btn"><a href="index.html" data-toggle="tab">Go Home, You're Drunk</a></button>
 				<button class = "btn"><a href="#makeTab" data-toggle="tab">Maker of Things</a></button>
 				<button class="btn"><a href="#cosplayTab" data-toggle="tab">Wearer of Costumes</a></button>
 				<button class="btn"><a href="#volunteerTab" data-toggle="tab">Helper of People</a></button>
@@ -34,9 +36,8 @@
 </div>
 </div>
 
-<div class = "row-fluid">
-<div class = "span3" class = "tab-content">
-	<div class = "tab-pane active" id="homeTab">
+<div class = "row-fluid mainArea">
+<div class = "span3">
 <center>
 	<h2>Hello there!<br/>
 		Name's Alisa.</h2>
@@ -47,9 +48,8 @@
 		<li>I make websites look beautiful.</li>
 		<li>I create video games to enhance the world.</li>
 		<li>I refuse to be anything less than exttraordinary.</li>
-		<li>I am...an adorable ball of insanity bundled up with intensity, spontaneity, and vulgarity.</li></h5>
+		<li>I am an adorable ball of insanity bundled up with intensity, spontaneity, and vulgarity.</li></h5>
 	</ul>
-</div>
 </div>
 <div class = "span9">
 	<img src="img/mainImage.jpg">
@@ -67,9 +67,25 @@
 		I also love creating tables, costumes, make-up, and physical things.
 		<h2>THESE ARE THINGS I'VE MADE!</h2>
 		<h3>Digital</h3>
-		<img src="img/website1.png">
-		<img src="img/website2.png">
+		<ul class = "thumbnails">
+			<li class = "thumbnail">
+				<div class = "thumbnail">
+				<img src="img/website1.png">
+				<p>My first website, made from scratch</p>
+			</div>
+			</li>
+			<li class = "thumbnail">
+			<div class = "thumbnail">
+				<img src="img/website2.png">
+				<p>I helped on the Heatsync labs website</p>
+			</div>
+		</li>
+		<li class = "thumbnail">
+			<div class = "thumbnail">
 		<img src="img/serenityGame.png">
+		<p>A serentiy based game</p>
+		</div>
+		</li>
 		<h3>Physical</h3>
 		<img src="img/cube.png">
 		<img src="img/meatwad.png">
@@ -86,7 +102,63 @@
 		<h1>
 			Alisa Dresses Up and Fights Crime.
 		</h1>
-	</center>
+			<ul class = "thumbnails">
+				<li class = "span2">
+					<div class = "thumbnail">
+						<img src="img/ramonatiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/39579761569/i-cosplay-ramona-flowers">Ramona Flowers</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<img src="img/lilithtiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/39886122135/i-cosplay-lilith">Lilith</a></p>
+					</div>
+				</li>
+				<li>
+					<div class = thumbnail>
+						<img src="img/deathtiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/39581777661/i-cosplay-death-the-kid">Death the Kid (female)</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<img src="img/sgtfrogtiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/39873934934/i-cosplay-sergent-keroro">Sgt. Keroro (female)</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<img src="img/bmotiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/40106817310/i-cosplay-bmo">BMO (female)</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<img src="img/11drtiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/39588813197/i-cosplay-the-11th-doctor">11th Doctor (female)</a></p>
+					</div>
+				</li>
+				<li>
+					<div class = "thumbnail">
+						<img src="img/zombietiny.png">
+						<a href="http://adorableatrocity.tumblr.com/post/39893674303/i-cosplay-a-zombie">A Zombie</a>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<img src="img/steamtiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/39589903591/i-cosplay-steampunk">Steampunk Biological Engineer</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="thumbnail">
+						<img src="img/robintiny.png">
+						<p><a href="http://adorableatrocity.tumblr.com/post/40106723241/i-cosplay-a-post-apocalyptic-robin">Post Apocalyptic Robin (female)</a></p>
+					</div>
+				</li>
+			</ul>
+		</center>
 	</div>
 <div class = "tab-pane" id="volunteerTab">
 	<center>
