@@ -17,11 +17,6 @@
 	z-index: 33;
 	background-color: #E3F5D5;
 	border: 3px solid black;
-	opacity: .85;
-    filter: alpha(opacity=50); 
-    -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .85;
-    -moz-opacity: .85;
 }
 #makeTab{
 	padding-top: 75px;
@@ -114,4 +109,18 @@ body{
 }
 li{
 	line-height: 25px;
+}
+
+#nav li{
+	font: #000000;
+	font-size: 1.5em;
+	display: inline;
+	margin: 0px 50px 0px 0px;
+	text-decoration: none;
+}
+
+li hover:a{
+	font: #000000;
+	font-size: 1.5em;
+	text-decoration: none;
 }

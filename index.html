@@ -6,23 +6,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 <link type = "text/css" rel="stylesheet" href="stylesheet.css"/>
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="hovereffects.js"></script>
+<script src="jQuery-One-Page-Nav/jquery.js"></script>
+<script src="jQuery-One-Page-Nav/jquery.scrollTo.js"></script>
+<script src="jQuery-One-Page-Nav/jquery.nav.js"></script>
+<script src="siteNav.js"></script>
 <title>An Adorable Atrocity</title>
 </head>
 <body>
+
 	<div class = "container-fluid">
 		<div class = "row">
 		<div class = "span12 menu">
 		<div class = "span7" class ="tabbable">
-			<ul class = "nav nav-tab">
+			<ul class = "nav nav-tab" id = "nav">
 				<h6>
-					<center>
-				<button class ="active" class="btn"><a href="index.html" data-toggle="tab">Go Home, You're Drunk</a></button>
-				<button class = "btn"><a href="#makeTab" data-toggle="tab">Maker of Things</a></button>
-				<button class="btn"><a href="#cosplayTab" data-toggle="tab">Wearer of Costumes</a></button>
-				<button class="btn"><a href="#volunteerTab" data-toggle="tab">Helper of People</a></button>
-					</center>
+				<li class ="current"><a href="#home">Go Home, You're Drunk</a></li>
+				<li><a href="#makeTab">Maker.</a></li>
+				<li><a href="#cosplayTab">Costume Fanatic.</a></li>
+				<li><a href="#volunteerTab">Volunteer.</a></li>
 				</h6>
 			</ul>
 		</div>
@@ -35,9 +36,11 @@
 	</div>
 </div>
 </div>
+</div>
 
+<div class = "container-fluid">
 <div class = "row-fluid mainArea">
-<div class = "span3">
+<div class = "span3" id = "home">
 <center>
 	<h2>Hello there!<br/>
 		Name's Alisa.</h2>
@@ -191,6 +194,7 @@
 
 </div>
 <br/><br/>
+</div>
 </div>
 </div>
 </body>
