@@ -1,5 +1,5 @@
 
-.span3{
+.mainArea{
 	background-color: #E3F5D5;
 	border: 3px solid black;
 	opacity: .85;
@@ -7,6 +7,7 @@
     -ms-filter: "alpha(opacity=50)"; 
     -khtml-opacity: .85;
     -moz-opacity: .85;
+    border-radius: 30px;
 }
 .span7{
 	float: left;
@@ -22,37 +23,38 @@
 	padding-top: 75px;
 	background-color: #E3F5D5;
 	border: 3px solid black;
+	border-radius: 30px;
 
 }
 #cosplayTab{
 	padding-top: 75px;
 	background-color: #E3F5D5;
 	border: 3px solid black;
+	border-radius: 30px;
 
 }
 #volunteerTab{
 	padding-top: 75px;
 	background-color: #E3F5D5;
 	border: 3px solid black;
-	
+	border-radius: 30px;
 }
 body{
 	background-image: url(img/space.jpg); 
 	background-repeat: repeat;
-	padding-top: 100px;
+	padding-top: 90px;
 }
 
 .social-container{
 	float: right;
 	vertical-align: middle;
-	border: 3px solid black;
+	
 }
 .facebook{
 	height: 50px;
 	width: 50px;
 	background: url(img/fblogo.png);
 	background-color: #E3F5D5;
-	border: 1px solid black;
 	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
@@ -62,9 +64,8 @@ body{
 .twitter{
 	height: 50px;
 	width: 50px;
-	background: url(img/twitter.png);
+	background: url(img/twitter2.png);
 	background-color: #E3F5D5;
-	border: 1px solid black;
 	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
@@ -74,9 +75,8 @@ body{
 .git{
 	height: 50px;
 	width: 50px;
-	background: url(img/git.png);
+	background: url(img/git2.png);
 	background-color: #E3F5D5;
-	border: 1px solid black;
 	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
@@ -86,9 +86,8 @@ body{
 .tumblr{
 	height: 50px;
 	width: 50px;
-	background: url(img/tumblr.png);
+	background: url(img/tumblr2.png);
 	background-color: #E3F5D5;
-	border: 1px solid black;
 	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
@@ -98,9 +97,8 @@ body{
 .linkedin{
 	height: 50px;
 	width: 50px;
-	background: url(img/linkedin.png);
+	background: url(img/linkedin2.png);
 	background-color: #E3F5D5;
-	border: 1px solid black;
 	opacity: .85;
     filter: alpha(opacity=50); 
     -ms-filter: "alpha(opacity=50)"; 
@@ -110,17 +108,24 @@ body{
 li{
 	line-height: 25px;
 }
-
 #nav li{
-	font: #000000;
-	font-size: 1.5em;
 	display: inline;
+}
+
+#nav li a{
+	font: #000000;
+	font-size: 1.3em;
 	margin: 0px 50px 0px 0px;
 	text-decoration: none;
 }
 
-li hover:a{
+#nav li hover:a{
 	font: #000000;
 	font-size: 1.5em;
 	text-decoration: none;
+}
+#navigationTabs{
+	position: absolute;
+	width: 100%
+
 }
